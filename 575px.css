@@ -1,0 +1,116 @@
+@media screen and (max-width:575px) {
+
+    #menuicon{
+        display: block;
+        cursor: pointer;
+    }
+    .logo h1{
+        font-size: 30px;
+    }
+    .menu{
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        z-index: 10;
+        background: var(--last-col);
+        transition: .5s;
+    }
+    .menu ul li{
+        margin: 0 0 0 0;
+        display: block;
+        text-align: center;
+    }
+    #xmarkicon{
+        display: block;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .menu ul li a{
+        color: #ddd;
+    }
+    .menu ul li a:focus{
+        color: white;
+        
+    }
+
+    .intro-content h1{
+        
+        font-size: 40px;
+    }
+    .intro-content p{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+
+
+    .adv-singlebox{
+      
+        flex: 50%;
+        
+    }
+
+
+    .about-text-content{
+        flex: 100%;
+        margin-bottom: 30px;
+    }
+    .about-img-content{
+        flex: 100%;
+       
+    }
+    .service-sing-box{
+        width: 49%;
+    }
+    .portfolio-menu{
+        display: none;
+    }
+    .portfolio-img{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 20px;
+    }
+    .process-signlebox{
+    
+        width: 48%;
+   
+    
+    }
+    .peaboutContent{
+       
+        grid-template-columns: 100%;
+        
+        
+    }
+    .peaboutContentSinglebox{
+        border: none;
+        padding: 20px;
+    }
+
+
+    .skillContent{
+        grid-template-columns: auto auto ;
+        grid-row-gap: 30px;
+    }
+    .projectContent form{
+     
+        grid-template-columns: auto auto;
+  
+    }
+    .contactInfo{
+        justify-content: space-between;
+    }
+    .text2{
+        width: 50%;
+    }
+    .text3{
+        width: 50%;
+    }
+    .text4{
+        width: 100%;
+    }
+
+}
